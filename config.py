@@ -17,7 +17,7 @@ APPIUM_BROWSERSTACK = os.getenv('APPIUM_BROWSERSTACK')
 
 
 class Settings(pydantic.BaseSettings):
-    context: EnvContext = 'browserstack'
+    context: EnvContext = 'emulation'
 
     platformName: Optional[str] = None
     os_version: Optional[str] = None

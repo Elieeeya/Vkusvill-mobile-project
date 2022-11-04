@@ -54,6 +54,9 @@ class MainPageVkusvill:
             (AppiumBy.ID, 'ru.vkusvill:id/et_search')).send_keys('Milka')
         browser.element(
             (AppiumBy.ID, 'ru.vkusvill:id/ll_cart_empty')).click()
+        browser.element(
+            (AppiumBy.ID, 'com.android.permissioncontroller:id/permission_allow_one_time_button')).click()
+        time.sleep(2)
         browser.quit()
 
     def contacts(self):
