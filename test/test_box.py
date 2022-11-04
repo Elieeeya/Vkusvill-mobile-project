@@ -9,7 +9,7 @@ from test.conftest import *
 @allure.tag('Pixel 6 Pro, Android version: 12.0')
 @pytest.mark.mobile
 @allure.description('Swipe list')
-def test_swite_list():
+def test_swipe_list():
     with allure.step('Свайп разделов'):
         MainPageVkusvill().swipe_list()
 
