@@ -23,9 +23,9 @@ def test_loacation():
 @pytest.mark.mobile
 @allure.tag('Pixel 6 Pro, Android version: 12.0')
 @allure.description('Search item')
-def test_search():
+def test_delete():
     with allure.step('Поиск товара'):
-        MainPageVkusvill().search()
+        MainPageVkusvill().delete()
 
 @pytest.mark.mobile
 @allure.tag('Pixel 6 Pro, Android version: 12.0')
