@@ -7,7 +7,7 @@ from test.conftest import *
 
 class MainPageVkusvill:
 
-    def swipe_list(self):
+    def swipe_menu(self):
         browser.element(
             (AppiumBy.ID, 'ru.vkusvill:id/btn_enter')).click()
         browser.element(
