@@ -1,16 +1,16 @@
 {
   "base": {
-    "project": "qa_guru_python_lesson-20",
-    "environment": "dev",
-    "comment": "Build Results",
-    "reportLink": "https://jenkins.autotests.cloud/job/qa_guru_python_lesson-20/",
+    "project": "Vkusvill-mobile-project",
+    "environment": "browserstack",
+    "comment": "Samsung Galaxy S22, 12.0",
+    "reportLink": "https://jenkins.autotests.cloud/job/Elieeeya_Vkusvill-mobile-project/",
     "language": "en",
     "allureFolder": "allure-report/",
     "enableChart": true
   },
   "telegram": {
-    "token": "",
-    "chat": "",
+    "token": "5207087185:AAGckEHzZXrYgDXaEH-oUwzpQaEe-Ge3E08",
+    "chat": "-1001722006807",
     "replyTo": ""
   }
 }

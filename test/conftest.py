@@ -5,8 +5,11 @@ import time
 from selene.support.shared import browser
 from selene import support
 from appium import webdriver
+from dotenv import load_dotenv
 
-
+@pytest.fixture(scope='session', autouse=True)
+def load_env():
+    load_dotenv()
 
 @pytest.fixture(scope='function', autouse=True)
 def create_driver():

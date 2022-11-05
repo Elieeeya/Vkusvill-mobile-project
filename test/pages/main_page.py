@@ -2,6 +2,7 @@ import time
 
 from appium.webdriver.common.appiumby import AppiumBy
 from selene import have, be
+from util.attachment import add_video
 from test.conftest import *
 
 
@@ -18,7 +19,9 @@ class MainPageVkusvill:
             (AppiumBy.ID, 'ru.vkusvill:id/bottom_item_history')).click()
         browser.element(
             (AppiumBy.ID, 'ru.vkusvill:id/bottom_item_support')).click()
+        add_video(browser)
         browser.quit()
+
 
     def loacation(self):
         browser.element(
@@ -39,6 +42,7 @@ class MainPageVkusvill:
             (AppiumBy.ID, 'ru.vkusvill:id/btn_select')).click()
         browser.element(
             (AppiumBy.ID, 'ru.vkusvill:id/button_rules_ok')).click()
+        add_video(browser)
         browser.quit()
 
 
@@ -53,6 +57,7 @@ class MainPageVkusvill:
         browser.element(
             (AppiumBy.XPATH, '//android.widget.ImageButton[@content-desc="Navigate up"]')).click()
         time.sleep(2)
+        add_video(browser)
         browser.quit()
 
 
@@ -64,6 +69,7 @@ class MainPageVkusvill:
             (AppiumBy.ID, 'ru.vkusvill:id/bottom_item_support')).click()
         browser.element(
             (AppiumBy.ID, 'ru.vkusvill:id/tv_contact_call')).click()
+        add_video(browser)
         browser.quit()
 
     def loyalty_program(self):
@@ -74,6 +80,7 @@ class MainPageVkusvill:
         browser.element(
             (AppiumBy.ID, 'ru.vkusvill:id/sl')).click()
         time.sleep(2)
+        add_video(browser)
         browser.quit()
 
 
